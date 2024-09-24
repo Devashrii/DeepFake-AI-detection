@@ -1,6 +1,6 @@
 # DeepFake-AI-detection
 This Python program is designed to help users detect whether an audio file is real or a potential deepfake. By utilizing audio feature extraction and comparing the results against preset thresholds, the tool gives a quick and user-friendly way to assess audio authenticity. Here's a brief explanation of how the program works.
-#Features of the Tool
+# Features of the Tool
 1) Graphical User Interface (GUI):
 Built using the Tkinter library, the program has a simple window where users can upload an audio file for analysis.
 Users can click a button to select a .wav file from their system, and the result of the analysis is displayed directly in the application window.
