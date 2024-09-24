@@ -11,12 +11,12 @@ Two audio features are extracted for analysis:
 MFCCs (Mel-frequency cepstral coefficients): These capture the important characteristics of the sound, often used in voice recognition and audio classification.
 Spectral Centroid: This indicates the center of mass of the sound's spectrum, which is useful in determining the brightness of the sound.
 
-3 )Deepfake Detection Logic:
+3) Deepfake Detection Logic:
 The program applies a simple decision-making process based on the extracted features.
 It uses predefined threshold values to check if the audio is likely to be a deepfake.
 If the mean MFCCs or spectral centroid values exceed certain thresholds, the audio is flagged as a possible deepfake.
 
-#How It Works
+# How It Works
 1) Upload the Audio:
 The user selects an audio file by clicking on the "Attach Audio" button in the GUI.
 
